@@ -12,24 +12,27 @@
   <link href="favicon.ico" rel="shortcut icon">
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="HTML/assets/css/bootstrap.css" rel="stylesheet">
+  <!-- custom map css -->
+  <link rel="stylesheet" href="HTML/assets/css/map.css"
 
   <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet" type="text/css">
 </head>
 
 <body>
   <!-- main section with the map -->
-  <section class="main">
-    <div class="wrapper">
-      <div class="sidebar-wrapper">
-        <ul class="sidebar-nav">
-          <li><a href="#">Settings </a> </li>
-          <li><a href="#">Filters </a> </li>
-          <li><a href="#">Etc </a> </li>
-        </ul>
+  <div class="container">
+    <div class="row">
+      <div class="cold-md-12" id="sidebar">
+
+      </div>
+      <div class="col-md-12">
+        <div id="map"></div>
       </div>
     </div>
-  </section>
+  </div>
+
   <!-- JS -->
+  <!-- map -->
   <script type="text/javascript" src="HTML/assets/js/jquery.min.js" type="text/javascript"></script>
   <script type="text/javascript" src="HTML/assets/js/bootstrap.min.js" type="text/javascript"></script>
   <script type="text/javascript" src="HTML/assets/js/scripts.js"></script>
@@ -38,13 +41,17 @@
   <!-- Mobile Menu - Slicknav -->
   <script type="text/javascript" src="HTML/assets/js/jquery.slicknav.js" type="text/javascript"></script>
   <!-- Animate on Scroll-->
-  <script type="text/javascript" src=HTML/"assets/js/jquery.visible.js" charset="utf-8"></script>
+  <script type="text/javascript" src="HTML/assets/js/jquery.visible.js" charset="utf-8"></script>
   <!-- Sticky Div -->
   <script type="text/javascript" src="HTML/assets/js/jquery.sticky.js" charset="utf-8"></script>
   <!-- Slimbox2-->
   <script type="text/javascript" src="HTML/assets/js/slimbox2.js" charset="utf-8"></script>
   <!-- Modernizr -->
   <script src="HTML/assets/js/modernizr.custom.js" type="text/javascript"></script>
+  <!-- More maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC8HwZx1Aknt-BHgT2vYtcgeBBvokVzWU&callback=initMap"
+    async defer></script>
+  <script type="text/javascript" src="HTML/assets/js/map.js" type="text/javascript"></script>
   <!-- End JS -->
 
 </body>
