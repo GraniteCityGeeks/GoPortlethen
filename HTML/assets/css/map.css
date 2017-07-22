@@ -6,3 +6,23 @@
   padding:inherit;
   margin: auto;
 }
+
+ body {
+    overflow-x: hidden;
+ }
+.heading {
+  max-height: 130px;
+}
+
+/* sidebar margins and styling */
+
+.control-list {
+  padding-left: 0%;
+  margin-left: 0;
+  list-style: none;
+  list-style-type: none;
+
+}
+
+
+/* Toggle Styles */
