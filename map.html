@@ -34,10 +34,28 @@
             <li> <label class="radio-inline"> <input type="radio" name="radioRouteFilter"> Bike routes  </label>  </li>
             <li> <label class="radio-inline"> <input type="radio" name="radioRouteFilter"> Running routes </label> </li>
             <li> <label class="radio-inline"> <input type="radio" name="radioRouteFilter"> N/A </label> </li>
+            <br>
+            <h5> Route Location </h5>
+            <li>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="" id="chkboxUrbanOnly"> Urban only
+                </label>
+              </div>
+            </li>
+            <li>
+            <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="" id="chkboxRuralOnly"> Rural only
+                </label>
+            </div>
+            </li>
           </ul>
 
+          <br>
 
           <ul class="control-list" id="displayOptions">
+            <h5><strong>display options</strong></h5>
             <li>
               <div class="checkbox">
                 <label>
@@ -45,7 +63,6 @@
                 </label>
               </div>
             </li>
-
             <li>
               <div class="checkbox">
                 <label>
@@ -53,8 +70,16 @@
                 </label>
               </div>
             </li>
-          </ul>
 
+            <br>
+
+            <li>
+              <label for="rangeRestrict">Range of search (1-100 Miles from specified marker)</label>
+              <input type="range" min="0" max="100" id="rangeRestrict">
+            </li>
+            <li>
+
+          </ul>
         </div>
       </div>
 <!-- map -->
