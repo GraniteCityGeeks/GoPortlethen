@@ -19,13 +19,28 @@
 </head>
 
 <body>
-  <!-- main section with the map -->
-  <div class="container">
-    <div class="row">
-      <div class="cold-md-12" id="sidebar">
+  <!--Sidebar -->
 
+  <!-- main section with the map -->
+<!-- sidebar -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-2 col-sm-4">
+        <div class="heading">
+          <h5><strong> Portlethen map </strong> </h5>
+        </div>
+        <div class="left-navigation">
+          <ul class="control-list" id="searchControls">
+            <label for="txtboxSearch">Look up routes </label>
+            <li> <input type="textbox" class="form-control" placeholder="search here" id="txtboxSearch"> </li>
+            <li> <label class="radio-inline"> <input type="radio" name="radioRouteFilter"> Bike routes  </label>  </li>
+            <li> <label class="radio-inline"> <input type="radio" name="radioRouteFilter"> Running routes </label> </li>
+            <li> <label class="radio-inline"> <input type="radio" name="radioRouteFilter"> N/A </label> </li>
+          </ul>
+        </div>
       </div>
-      <div class="col-md-12">
+
+      <div class="col-lg-10 col-sm-8">
         <div id="map"></div>
       </div>
     </div>
