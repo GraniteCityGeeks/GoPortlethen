@@ -31,8 +31,9 @@
           <ul class="control-list" id="searchControls">
             <label for="txtboxSearch">Look up routes </label>
             <li> <input type="textbox" class="form-control" placeholder="search here" id="txtboxSearch"> </li>
-            <li> <label class="radio-inline"> <input type="radio" name="radioRouteFilter"> Bike routes  </label>  </li>
+            <li> <label class="radio-inline"> <input type="radio" name="radioRouteFilter"> Cycling routes  </label>  </li>
             <li> <label class="radio-inline"> <input type="radio" name="radioRouteFilter"> Running routes </label> </li>
+            <li> <label class="radio-inline"> <input type="radio" name="radioRouteFilter"> Walking routes </label> </li>
             <li> <label class="radio-inline"> <input type="radio" name="radioRouteFilter"> N/A </label> </li>
             <br>
             <h5> Route Location </h5>
@@ -74,10 +75,17 @@
             <br>
 
             <li>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="">Restrict range
+                </label>
+              </div>
+            </li>
+
+            <li>
               <label for="rangeRestrict">Range of search (1-100 Miles from specified marker)</label>
               <input type="range" min="0" max="100" id="rangeRestrict">
             </li>
-            <li>
 
           </ul>
         </div>
