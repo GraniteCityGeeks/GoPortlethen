@@ -17,6 +17,7 @@
       <link rel="stylesheet" href="HTML/assets/css/nexus.css" rel="stylesheet">
       <link rel="stylesheet" href="HTML/assets/css/responsive.css" rel="stylesheet">
       <link rel="stylesheet" href="HTML/assets/css/custom.css" rel="stylesheet">
+      <link rel="stylesheet" href="HTML/assets/css/map.css" rel="stylesheet">
       <!-- Google Fonts-->
       <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet" type="text/css">
   </head>
@@ -76,6 +77,7 @@
     <!--begin content -->
     <div class="container-fluid">
       <div class="row">
+        <!--Marker-->
         <div class="col-md-4">
           <h1>Add a marker </h1>
           <div class="form-group">
@@ -101,31 +103,49 @@
               <option value="Country">Countryside/Rural</option>
             </select>
 
+            <input type="submit" class="form-control" value="add to map" name="marker">
           </div>
         </div>
+        <!--Route type -->
         <div class="col-md-4">
           <div class="form-group">
             <h1>Add a Route</h1>
-            <label>Use map to define route? </label>
-            <input type="checkbox" id="chkMapRoute" name="chkMapRoute" class="form-control">
+            <label>Route Name</label>
+            <input type="text" class="form-control" placeholder="name" id="txtboxRouteName" name="routename">
 
-            <label>Manual Starting Point<label>
+            <label class="checkbox">
+              <input type="checkbox" id="chkMapRoute" name="chkMapRoute">Use map to define route?
+            </label>
+
+            <br>
+
+            <label>Manual Starting Point</label>
               <input type="text" id="txtboxStart" name="Start" class="form-control">
 
             <label>Manual End Point</label>
               <input type="text" id="txtboxEnd" name="End" class="form-control">
 
-            <label>Route type </label>
+            <label>Route type</label>
             <select name="route" class="form-control">
               <option value="Cycling">Bike Route </option>
               <option value="Running">Running Route </option>
               <option value="walking">Walking Route </option>
             </select>
-
+            <input type="submit" name="routesubmit" value="add to map">
           </div>
+        </div>
+
+        <!--Map-->
+        <div class="col-md-4">
+          <div id="map"></div>
         </div>
     </div>
     <!-- JS -->
+    <!--Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC8HwZx1Aknt-BHgT2vYtcgeBBvokVzWU&callback=initMap"
+      async defer></script>
+    <script type="text/javascript" src="HTML/assets/js/map.js" type="text/javascript"></script>
+    <!--jquery -->
     <script type="text/javascript" src="HTML/assets/js/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="HTML/assets/js/bootstrap.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="HTML/assets/js/scripts.js"></script>
