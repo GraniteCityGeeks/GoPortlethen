@@ -80,6 +80,48 @@
           <h1>Add a marker </h1>
           <div class="form-group">
             <label for="txtboxMarkerName">Marker Name </label>
+            <input type="text" id="txtboxMarkerName" class="form-control" placeholder="Enter marker name here">
+
+            <label for="txtboxLat"> Latitude </label>
+            <input type="text" id="txtboxLat" class="form-control" placeholder="Latitude">
+
+            <label for="txtboxLng"> Longitude </label>
+            <input type="text" id="txtboxLng" class="form-control" placeholder="Longitude">
+
+            <label>Route</label>
+            <select name="route" class="form-control">
+              <option value="Cycling">Bike Route </option>
+              <option value="Running">Running Route </option>
+              <option value="walking">Walking Route </option>
+            </select>
+
+            <label>Type</label>
+            <select name="environemnt" class="form-control">
+              <option value="Urban">Urban</option>
+              <option value="Country">Countryside/Rural</option>
+            </select>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <h1>Add a Route</h1>
+            <label>Use map to define route? </label>
+            <input type="checkbox" id="chkMapRoute" name="chkMapRoute" class="form-control">
+
+            <label>Manual Starting Point<label>
+              <input type="text" id="txtboxStart" name="Start" class="form-control">
+
+            <label>Manual End Point</label>
+              <input type="text" id="txtboxEnd" name="End" class="form-control">
+
+            <label>Route type </label>
+            <select name="route" class="form-control">
+              <option value="Cycling">Bike Route </option>
+              <option value="Running">Running Route </option>
+              <option value="walking">Walking Route </option>
+            </select>
+
           </div>
         </div>
     </div>
