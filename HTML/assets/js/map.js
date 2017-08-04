@@ -13,13 +13,32 @@ var directionDisplay = new google.maps.DirectionsRenderer( {
   map:map,
 
 });
+var latlng = {lat: 57.0617, lng: -2.1295};
 
+//infowindow content
+var contentstring = "<p class='text-primary'>This is a test marker</p>";
+
+var infowindow = new google.maps.InfoWindow({
+  content: contentstring
+});
+
+//marker
+var marker = new google.maps.Marker({
+  position: latlng,
+  map:map,
+  title:"test marker"
+});
+
+marker.addListener("click", function() {
+  infowindow.open(map, marker);
+});
 //directionDisplay.addListener("directions_changed" function() {
 //  computeTotalDistance(directionDisplay.getDirections());
 //});
 
 renderRoute("Aberdeen", "Edinburgh", directionsService, directionDisplay);
 
+//render route
 function renderRoute(origin, destination, service, display) {
   service.route({
     origin: origin,
