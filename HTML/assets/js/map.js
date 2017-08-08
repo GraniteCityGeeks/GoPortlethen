@@ -5,7 +5,7 @@ function initMap() {
     zoom: 15
   });
 
-//directions
+//declarations
 
 var directionsService = new google.maps.DirectionsService;
 var directionDisplay = new google.maps.DirectionsRenderer( {
@@ -13,6 +13,9 @@ var directionDisplay = new google.maps.DirectionsRenderer( {
   map:map,
 
 });
+
+var distancematrix = new google.maps.DistanceMatrixService();
+
 var latlng = {lat: 57.0617, lng: -2.1295};
 
 //infowindow content
@@ -54,4 +57,24 @@ function renderRoute(origin, destination, service, display) {
     }
   });
 }
+function getDistance(origin, destination) {
+  distancematrix.getDistanceMatrix( {
+    origins: origin,
+    destinations: destination,
+    travelMode:"BICYCLING",
+    drivingOptions: {
+      trafficModel: "optimistic"
+    },
+    unitSystem: "IMPERIAL",
+    avoidHighways: false,
+    avoidTolls: true,
+  }, function(response, status) {
+    var results = response.rows[0].elements
+
+    var element = results[0];
+    var distance = element.distance.text;
+    var duration = element.duration.text;
+  });
+}
+
 }
