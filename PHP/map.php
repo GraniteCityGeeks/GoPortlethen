@@ -1,6 +1,13 @@
 <html>
 
 <head>
+
+
+
+    <?php
+    include("dbconnect.php");
+    include("scripts/Header.php")
+    ?>
   <!-- Title -->
   <title>Go Portlethen!</title>
   <!-- Meta -->
