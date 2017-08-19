@@ -62,7 +62,7 @@
 
                                     </li>
                                     <li>
-                                        <a href="/PHP/Clubs.php" class="fa-comment ">Clubs</a>
+                                        <a href="PHP/Clubs.php" class="fa-comment ">Clubs</a>
 
                                     </li>
                                     <li>
