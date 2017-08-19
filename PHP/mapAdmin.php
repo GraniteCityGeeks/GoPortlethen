@@ -84,6 +84,9 @@
             <label for="txtboxMarkerName">Marker Name </label>
             <input type="text" id="txtboxMarkerName" class="form-control" placeholder="Enter marker name here">
 
+            <label>Description</label>
+            <textarea class="form-control" name="description">
+
             <label for="txtboxLat"> Latitude </label>
             <input type="text" id="txtboxLat" class="form-control" placeholder="Latitude">
 
@@ -96,7 +99,6 @@
               <option value="Running">Running Route </option>
               <option value="walking">Walking Route </option>
             </select>
-
             <label>Type</label>
             <select name="environemnt" class="form-control">
               <option value="Urban">Urban</option>
