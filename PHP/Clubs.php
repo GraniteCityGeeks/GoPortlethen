@@ -47,37 +47,35 @@
                 <div class="container no-padding border-bottom">
                     <div class="row">
                         <div class="col-md-8 no-padding">
-                            <div class="visible-lg">
-                                <ul id="hornavmenu" class="nav navbar-nav">
-                                      <!-- nav  -->
-                                    <li>
-                                        <a href="index.php" class="fa-home active">Home</a>
-                                    </li>
-                                    <li>
+                          <div class="visible-lg">
+                              <ul id="hornavmenu" class="nav navbar-nav">
 
-                                    </li>
-                                    <li>
+                                  <li>
+                                      <a href="index.php" class="fa-home active">Home</a>
+                                  </li>
+                                  <li>
 
-                                        <a href="PHP/Clubs.php" class="fa-comment ">Clubs</a>
+                                  </li>
+                                  <li>
+                                      <a href="http://side-pardon-3000.codio.io/GoPortlethen/PHP/Clubs.php" class="fa-comment ">Clubs</a>
 
-                                    </li>
-                                    <li>
-                                        <a href="PHP/map.php" class="fa-comment ">Maps</a>
+                                  </li>
+                                  <li>
+                                      <a href="http://side-pardon-3000.codio.io/GoPortlethen/PHP/map.php" class="fa-comment ">Maps</a>
 
-                                    </li>
-                                    <li>
-                                      <a href="HTML/health.html" class="fa-comment ">Health</a>
+                                  </li>
+                                  <li>
+                                    <a href="http://side-pardon-3000.codio.io/GoPortlethen/HTML/health.html" class="fa-comment ">Health</a>
 
-                                    </li>
-                                    <li>
-                                        <a href="HTML/contact.html" class="fa-comment ">Contact</a>
-                                    </li>
-
+                                  </li>
+                                  <li>
+                                      <a href="http://side-pardon-3000.codio.io/GoPortlethen/HTML/contact.html" class="fa-comment ">Contact</a>
+                                  </li>
 
 
-                                </ul>
-                            </div>
-                        </div>
+                              </ul>
+                          </div>
+                      </div>
                         <div class="col-md-4 no-padding">
                             <ul class="social-icons pull-right">
                                 <li class="social-rss">
