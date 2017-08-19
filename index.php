@@ -54,7 +54,7 @@
                         <div class="col-md-8 no-padding">
                             <div class="visible-lg">
                                 <ul id="hornavmenu" class="nav navbar-nav">
-
+                                      <!-- nav  -->
                                     <li>
                                         <a href="index.php" class="fa-home active">Home</a>
                                     </li>
@@ -62,6 +62,7 @@
 
                                     </li>
                                     <li>
+
                                         <a href="PHP/Clubs.php" class="fa-comment ">Clubs</a>
 
                                     </li>
