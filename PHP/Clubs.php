@@ -2,7 +2,7 @@
 <!--<![endif]-->
 <head>
     <!-- Title -->
-    <title>Go Portlethen!</title>
+    <title>Clubs n Shit</title>
     <!-- Meta -->
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="Portlethen (and surrounding communities) Information Resource">
