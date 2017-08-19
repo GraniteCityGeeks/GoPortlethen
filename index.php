@@ -77,13 +77,7 @@
                                         <a href="http://side-pardon-3000.codio.io/GoPortlethen/HTML/contact.html" class="fa-comment ">Contact</a>
                                     </li>
 
-                                    <li>
-                                        <a href="test.html" class="fa-home active">Signup</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="test.html" class="fa-home active">Login</a>
-                                    </li>
+                                    
                                 </ul>
                             </div>
                         </div>
