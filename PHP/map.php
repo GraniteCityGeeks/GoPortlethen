@@ -75,7 +75,7 @@
     <div class="row">
       <div class="col-lg-2 col-sm-4">
         <div class="heading">
-          <h4><strong> Portlethen map </strong> </h5>
+          <h4><strong> Portlethen map </strong> </h4>
         </div>
         <br>
         <div class="left-navigation">
