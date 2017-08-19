@@ -37,13 +37,13 @@
                     <div class="row">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="index.html" title="">
+                            <a href="index.php" title="">
                               <!--  <img src="HTML/assets/img/logo.png" alt="Logo" /> -->
                               <h1>Go Portlethen</h1>
                             </a>
                         </div>
                         <!-- End Logo -->
-                    </div>
+
                 </div>
             </div>
             <!-- End Header -->
@@ -56,7 +56,7 @@
                                 <ul id="hornavmenu" class="nav navbar-nav">
 
                                     <li>
-                                        <a href="index.html" class="fa-home active">Home</a>
+                                        <a href="index.php" class="fa-home active">Home</a>
                                     </li>
                                     <li>
 
